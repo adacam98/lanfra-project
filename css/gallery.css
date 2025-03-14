@@ -1,0 +1,30 @@
+/* -----GALLERY SECTION----- */
+
+.section-gallery {
+  text-align: center;
+  padding: 2rem;
+}
+
+.gallery-grid {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+
+.gallery-item {
+  max-width: 100%;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.figcaption {
+  margin-top: 0.5rem;
+  font-size: var(--text-base);
+  font-weight: bold;
+}

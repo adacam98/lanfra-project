@@ -1,0 +1,150 @@
+<!-- Resources Page -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resources.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <title>Resources | LANFRA</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar" aria-label="Main navigation">
+        <h1 class="org-name"><a href="index.html">LANFRA</a></h1>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li class="active"><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+
+      <section id="hero" class="hero-section">
+        <div class="hero-content container">
+          <h2 id="heroTitle">Welcome to Our Resources Hub</h2>
+          <p id="heroText">
+            Find essential
+            <span class="highlight highlight-primary"
+              >documents and guides</span
+            >
+          </p>
+          
+          <a href="membership.html" class="btn btn-primary">Join us</a>
+          <a href="#about" class="btn btn-secondary">Learn more</a>
+        </div>
+        <div class="arrows-container">
+          <button class="btn-arrow" id="prevBtn" aria-label="Previous slide">
+            <img class="btn-arrow-left" src="images/chevron-back-outline.svg" alt="Previous" />
+          </button>
+          <button class="btn-arrow" id="nextBtn" aria-label="Next slide">
+            <img class="btn-arrow-right" src="images/chevron-forward-outline.svg" alt="Next" />
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <!-- Resources Section -->
+    <!-- <div class="container"> -->
+    <main class="container">
+      <section id="resources" class="resources-section">
+        <div class="document-card-text">
+          <h2>Resources & Documents</h2>
+          <p>Explore important documents and materials for our community.</p>
+        </div>
+
+        <!-- Constitution PDF Download -->
+        <div id="constitution" class="document-cards-container">
+          <div class="document-card">
+            <h3>Constitution of LANFRA</h3>
+            <p>
+              View or download our association’s constitution to learn more
+              about our values and regulations.
+            </p>
+            <!-- need to add the constitution pdf -->
+            <a
+              href="" 
+              download
+              class="btn btn-tertiary"
+              >Download Constitution (PDF)</a
+            >
+          </div>
+
+          <!-- Membership Guide -->
+          <div class="document-card">
+            <h3>Membership Guide</h3>
+            <p>
+              Get details about membership benefits and how to participate
+              actively in LANFRA.
+            </p>
+            <a
+              href="pdfs/lanfra-membership-guide.pdf"
+              download="lanfra-membership-guide"
+              class="btn btn-secondary"
+              >Download Membership Guide (PDF)</a
+            >
+          </div>
+        </div>
+        <div class="document-cards-container">
+          <div class="document-card">
+            <h3>LANFRA Constitution</h3>
+            <p>Our guiding principles and values.</p>
+            <a
+              href="pdfs/lanfra-guiding-principles-values.pdf"
+              download="lanfra-guiding-principles-values"
+              class="btn btn-tertiary"
+              >Download Principles & Values (PDF)</a
+            >
+          </div>
+
+          <!-- Membership Guide -->
+          <div id="terms" class="document-card">
+            <h3>Terms & Conditions</h3>
+            <p>Know your rights and obligations as a LANFRA member.</p>
+            <a
+              href="pdfs/terms-conditions-of-membership.pdf"
+              download="terms-conditions-of-membership"
+              class="btn btn-secondary"
+              >Download Terms & Conditions (PDF)</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- </div> -->
+    <!-- Footer -->
+    <footer>
+      <div class="motto-wrapper">
+        <p>
+          <span>Liberia's Motto</span> : The love of liberty brought us here.
+        </p>
+        <p><span>LANFRA's Motto</span>: Together we can do better.</p>
+        <!-- add the constitution -->
+        <a href="" download
+          >LANFRA Constitution</a
+        >
+        <p>
+          &copy; 2025 Liberian Association in Normandie - France. All Rights
+          Reserved.
+        </p>
+        <button id="backToTopBtn" class="back-to-top" aria-label="Back to Top">
+          ↑
+        </button>
+      </div>
+    </footer>
+    <!-- code is validated but i am going at the form and the image aspects -->
+  </body>
+</html>

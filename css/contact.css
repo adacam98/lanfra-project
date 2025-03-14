@@ -1,0 +1,59 @@
+/* -----CONTACT SECTION----- */
+
+
+.contact-form-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center; 
+  
+}
+
+.contact-form-section h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  
+}
+
+.contact-form-section button {
+  margin-top: 2rem;
+  
+}
+
+.contact-form-section label {
+  font-size: 1.5rem;
+  margin-bottom: -1rem;
+}
+
+.contact-form-section input {
+  margin-bottom: 2rem;
+}
+
+.contact-form-section textarea {
+  color: #6C757D;
+  border: 2px solid #339af0 ;
+  cursor: pointer;
+  font-size: var(--text-base);
+}
+
+.contact-form-section textarea:hover {
+  color: #6C757D;
+  border: 2px solid #339af0;
+}
+
+.location-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-social-media-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 2rem;
+}

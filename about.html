@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@400;700&family=Noto+Sans:wght@100..900&family=Poppins:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/queries.css">
+    <title>About Us | LANFRA</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" aria-label="Main navigation">
+        <h1 class="org-name"><a href="index.html">LANFRA</a></h1>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+      <section id="hero" class="hero-section">
+        <div class="container hero-content">
+          <h2 id="heroTitle">About LANFRA</h2>
+          <p id="heroText">Learn more about our mission and values.</p>
+          <a href="membership.html" class="btn btn-primary">Join us</a>
+        </div>
+        <div class="arrows-container">
+          <button class="btn-arrow" id="prevBtn" aria-label="Previous slide">
+            <img class="btn-arrow-left" src="images/chevron-back-outline.svg" alt="Previous" />
+          </button>
+          <button class="btn-arrow" id="nextBtn" aria-label="Next slide">
+            <img class="btn-arrow-right" src="images/chevron-forward-outline.svg" alt="Next" />
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <main class="container main-sections">
+      <section id="about-page" class="about-page-wrapper">
+        <div class="about-page-above-content">
+          <h2>About the Liberian Association in Normandie France</h2>
+          <div class="about-page-image-above-wrapper">
+            <img src="images/crowd.jpg" alt="Group Photo" />
+            <img src="images/crowd.jpg" alt="Group Photo" />
+          </div>
+        </div>
+
+        <div class=" about-page-image-above-wrapper">
+          <div>
+            <p>
+              The Liberian Association in Normandie France is a community-driven
+              organization dedicated to connecting and supporting Liberians living
+              in Normandie, France.
+            </p>
+          </div>
+            <img src="images/crowd.jpg" alt="Group Photo" />
+          
+          
+          <div>
+            <p>
+              Our mission is to foster unity, celebrate our culture, and provide
+              support through events, networking, and collaboration.
+            </p>
+          </div>
+            <img src="images/crowd.jpg" alt="Group Photo" />
+          
+        
+          
+        </div>
+      </section>
+
+      <section id="goal" class="shared-section">
+        <div class="shared-content">
+          <h3>Our Values</h3>
+          <ul class="our-values-list">
+            <li>
+              <span class="highlight-strong">Unity:</span> Bringing the
+              community together.
+            </li>
+            <li>
+              <span class="highlight-strong">Culture:</span> Celebrating
+              Liberian heritage.
+            </li>
+            <li>
+              <span class="highlight-strong">Support:</span> Providing help and
+              guidance to our members.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="goal" class="shared-section">
+        <div class="shared-content">
+          <h3>Our History</h3>
+          <p>
+            Founded in 2024, our association strives to create a welcoming
+            environment where members can share experiences, promote education,
+            and contribute positively to the local community.
+          </p>
+          <a href="index.html#membership" class="btn btn-primary">Join us</a>
+        </div>
+      </section>
+
+      <section id="constitution-download" class="shared-section">
+        <div class="shared-content">
+          <h3>Constitution of LANFRA</h3>
+          <p>
+            Discover more about our rules, membership duties, and policies by
+            reviewing our constitution.
+          </p>
+          <!-- add in the constitution pdf -->
+          <a
+            href=""
+            class="btn btn-secondary"
+            download="LANFRA_Constitution.pdf"
+          >
+            Download Constitution (PDF)
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="quick-link-wrapper">
+        <nav class="footer-links">
+          <h3>Quick links</h3>
+          <ul class="footer-quick-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="membership.html">Membership</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-newsletter">
+          <h3>Subscribe to Our Newsletter</h3>
+          <p>Stay updated with our latest events and news.</p>
+          <form class="form-group" id="newsletterForm">
+            <input
+              type="email"
+              id="newsletter-email"
+              placeholder="Enter your email"
+              required
+            />
+            <button type="submit" class="btn btn-tertiary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="motto-wrapper">
+        <p>
+          <span>Liberia's Motto</span>: The love of liberty brought us here.
+        </p>
+        <p><span>LANFRA's Motto</span>: Together we can do better.</p>
+        <a href="" download
+          >LANFRA Constitution</a>
+        <p>
+          
+          &copy; 2025 Liberian Association in Normandie - France. All Rights
+          Reserved.
+        </p>
+        <button id="backToTopBtn" class="back-to-top" aria-label="Back to Top">
+          ↑
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

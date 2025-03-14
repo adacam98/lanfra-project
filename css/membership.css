@@ -1,0 +1,85 @@
+/* -----MEMBERSHIP SECTION----- */
+.membership-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  gap: 1rem;
+}
+
+.membership-form-section-list {
+  font-size: var(--text-base);
+}
+
+.membership-form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.membership-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+
+}
+
+.membership-form label, .event-registration-form label {
+  font-size: 1.5rem;
+  margin-bottom: -1rem;
+}
+
+.membership-form input {
+  width: 100%;
+  padding: 10px 5px;
+  outline: none;
+  border: solid #333 2px;
+}
+
+
+.select-membership {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 5px;
+  border: 2px solid #333;
+  background-color: white;
+  appearance: none;
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  position: relative;
+}
+
+ .select-membership {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5H7z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 15px;
+  padding-right: 30px;
+}
+
+.terms-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 0.8rem;
+  margin: 2rem 0;
+}
+
+.terms-container input[type = "checkbox"] {
+  width: 16px;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.terms-container a {
+color: #007acc; 
+}
+
+.terms-container a:hover {
+  color: #005fa3; 
+  transition: color 0.3s;
+  
+}

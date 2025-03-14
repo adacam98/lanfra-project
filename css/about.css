@@ -1,0 +1,55 @@
+
+/* ABOUT PAGE */
+ .about-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+}
+
+.about-page-wrapper img {
+  border-radius: 5px;
+}
+
+.about-page-above-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+
+.about-page-image-above-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+ img {
+max-width: 750px;
+width: 100%;
+}
+
+.about-page-image-below-content {
+ display: flex;
+ align-items: center;
+ gap: 10rem;
+ padding:5rem 3rem;
+ outline: 2px solid red;
+} 
+
+.quick-link-wrapper {
+  margin-bottom: 15rem;
+}
+
+.our-values-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+
+.our-values-list li {
+  font-size: 2rem;
+  text-align: left;
+}

@@ -1,0 +1,164 @@
+/* LG - SMALL LAPTOPS: 1024px - 1280px */
+
+@media (max-width: 72rem)  {
+/* 1150px / 16px = 72rem */
+/* 72rem x 16px = 1152px */
+
+html {
+font-size: 56.25%;
+/* 9px / 16px = 56.25% */
+}
+
+.menu-toggle {
+display: none;
+}
+
+}
+
+
+/* MD - TABLETS: 768px - 1024px */
+@media (max-width: 51rem)  {
+/* 816px / 16px = 51rem */
+/* 51rem x 16px = 816px */
+
+html {
+font-size: 50%;
+/* 8px / 16px = 50% */
+}
+
+.navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.5rem 0;
+flex-wrap: wrap;
+
+}
+
+.org-name a {
+margin-right: 2.5rem;
+}
+
+.about-page-image-above-wrapper{
+display: grid;
+grid-template-columns: 1fr;
+text-align: center;
+}
+
+.event-card-images {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.event-card-images img {
+margin-bottom: 2rem;
+}
+
+}
+
+/* SM - PHONE LANDSCAPE: 576px - 768px */
+
+@media (max-width: 43rem)  {
+/* 680px / 16px = 43rem */
+/* 43rem x 16px = 688px */
+
+html {
+font-size: 43.75%;
+/* 7px / 16px = 43.75% */
+}
+
+.navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0.5rem 0;
+
+}
+
+.menu-toggle {
+display: none;
+}
+
+
+.main-sections {
+gap: 10rem;
+}
+
+.hero-content {
+text-align: center;
+}
+
+.social-media-logo-wrapper {
+margin-bottom: 0;
+}
+
+}
+
+
+/* XS - PHONE PORTRAIT: < 576px */
+@media (max-width: 34rem)  {
+/* 530px / 16px = 34rem */
+/* 34rem x 16px = 544px */
+
+html {
+font-size: 37.5%;
+/* 6px / 16px = 37.5% */
+}
+
+.menu-toggle {
+display: none;
+}
+
+.navbar {
+display: flex;
+justify-content:center;
+align-items: center;
+padding: 0.5rem 0;
+flex-wrap: wrap;
+
+}
+
+.hero-section {
+min-height: 70vh;
+}
+
+body {
+background-color: blue;
+}
+
+}
+
+/* XXS - IPHONE FIRST VERSION : < 320px */
+@media (max-width: 20rem)  {
+/* 320px / 16px = 20rem */
+/* 20rem x 16px = 320px */
+
+html {
+font-size: 37.5%;
+/* 5.5px / 16px = 37.5% */
+}
+
+.menu-toggle {
+display: none;
+}
+
+.nav-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.hero-section {
+min-height: 70vh;
+}
+
+.motto-wrapper, p a {
+text-align: center;
+
+}
+
+
+
+}
